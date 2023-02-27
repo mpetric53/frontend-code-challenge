@@ -15,8 +15,13 @@ const FormWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20%;
-`;
+  padding: 3%;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 50%;
+  max-width: 400px;
+  margin: auto;
+`
 
 const Input = styled.input`
   padding: 12px 20px;
@@ -30,7 +35,7 @@ const Input = styled.input`
 `;
 
 const Button = styled.button`
-  background-color: #2196F3;
+  background-color: #147cc0;
   color: #fff;
   padding: 14px 20px;
   border-radius: 5px;
@@ -79,7 +84,7 @@ const Encoder = () => {
   const ENDPOINT = 'http://localhost:8000/encode';
 
   const handleEncode = async () => {
-    if(inputString !== ''){
+    if(inputString === ''){
       setErrorMessage('Please give a string to encode')
     }
     try {

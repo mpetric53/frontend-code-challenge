@@ -9,6 +9,7 @@ const Wrapper = styled.div`
   justify-content: center;
   height: 100%;
   background-color: #f2f2f2;
+  margin: 5%;
 `;
 
 const Title = styled.h1`
@@ -26,11 +27,12 @@ const Message = styled.p`
 
 const ReturnButton = styled(Link)`
   padding: 3%;
-  background-color: #2196F3;
+  background-color: #147cc0;
   color: #fff;
   font-size: 2vw;
   text-decoration: none;
   border-radius: 5px;
+  margin-bottom: 5%;
   &:hover {
     background-color: #0d8ae5;
   }

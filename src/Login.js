@@ -45,7 +45,7 @@ const ErrorMessage = styled.div`
 `
 
 const LoginButton = styled.button`
-  background-color: blue;
+  background-color: #147cc0;
   color: #fff;
   padding: 10px;
   border-radius: 5px;

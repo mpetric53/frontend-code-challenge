@@ -19,7 +19,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Login />} />
-        <Route exact path='/encoder' element={<PrivateRoute />}>
+        <Route path='/encoder' element={<PrivateRoute />}>
           <Route exact path='/encoder' element={<Encoder token={token} />} />
         </Route>
         <Route path="*" element={<NotFound />} />
