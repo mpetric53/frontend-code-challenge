@@ -7,26 +7,25 @@ const Wrapper = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100%;
   background-color: #f2f2f2;
   margin: 5%;
 `;
 
 const Title = styled.h1`
-  font-size: 5vw;
+  font-size: 3vw;
   font-weight: 400;
   margin-top: 10%;
   margin-bottom: 5%;
 `;
 
 const Message = styled.p`
-  font-size: 3vw;
+  font-size: 2vw;
   font-weight: 300;
   margin-bottom: 10%;
 `;
 
 const ReturnButton = styled(Link)`
-  padding: 3%;
+  padding: 2%;
   background-color: #147cc0;
   color: #fff;
   font-size: 2vw;
